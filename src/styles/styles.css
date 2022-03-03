@@ -1,0 +1,25 @@
+body{
+    font-family: Roboto,sans-serif;
+    margin: 0px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(247,247,250,1) 29%, rgba(211,219,237,1) 100%);
+}
+.app-bar{
+    background: rgb(157,157,157);
+    background: linear-gradient(90deg, rgba(157,157,157,1) 0%, rgba(12,12,77,0.4500393907563025) 66%, rgba(10,5,43,1) 100%);
+}
+.app-body {
+    display: flex;
+    justify-content : space-around;
+}
+.app-welcome-message{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: inherit;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    color: dimgray;
+}
